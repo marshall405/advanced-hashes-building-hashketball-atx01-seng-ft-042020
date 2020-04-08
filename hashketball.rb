@@ -31,13 +31,13 @@ end
 def player(stats)
   {
     :player_name => stats[0],
-    :number => stats[1].to_int,
-    :shoe => stats[2].to_int,
-    :points => stats[3].to_int,
-    :rebounds => stats[4].to_int,
-    :assists => stats[5].to_int,
-    :steals => stats[6].to_int,
-    :blocks => stats[7].to_int,
-    :slam_dunks => stats[8].to_int
+    :number => stats[1].to_i,
+    :shoe => stats[2].to_i,
+    :points => stats[3].to_i,
+    :rebounds => stats[4].to_i,
+    :assists => stats[5].to_i,
+    :steals => stats[6].to_i,
+    :blocks => stats[7].to_i,
+    :slam_dunks => stats[8].to_i
   }
 end
