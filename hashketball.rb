@@ -22,16 +22,16 @@ end
 
 
 
-def player(name, number,shoe,points,rebounds,assists,steals,blocks,slam_dunks)
+def player(stats)
   {
-    :player_name => name,
-    :number => number,
-    :shoe => shoe,
-    :points => points,
-    :rebounds => rebounds,
-    :assists => assists,
-    :steals => steals,
-    :blocks => blocks,
+    :player_name => stats[0],
+    :number => stats[1],
+    :shoe => stats[2],
+    :points => stats[0],
+    :rebounds => stats[0],
+    :assists => stats[0],
+    :steals => stats[0],
+    :blocks =>stats[0],
     :slam_dunks => slam_dunks
   }
 end
