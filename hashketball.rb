@@ -16,7 +16,7 @@ end
 
 
 
-def create_player_hash(name, number,shoe,points,rebounds,assists,steals,blocks,slam_dunks)
+def player(name, number,shoe,points,rebounds,assists,steals,blocks,slam_dunks)
   {
     :player_name => name,
     :number => number,
